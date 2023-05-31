@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 48px;
+}
+
+.inner-container {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.box {
+    margin: 28px 0px 28px 0px;
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+}
+
+.box-large {
+    height: 100%
+}
