@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center; /* values can be stretch(default), flex-start, flex-end, center */
+    justify-content: space-around; /* values can be flex-start(default), flex-end, center, space-between, space-around */
+    /* space-between used in navigation bars */
+    margin: 10px;
+}
+
+.container2 {
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
