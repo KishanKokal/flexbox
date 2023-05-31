@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+.outer-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.inner-container {
+    display: flex;
+}
+
+.box {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+.box-small {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
